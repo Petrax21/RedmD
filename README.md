@@ -55,12 +55,12 @@ g++ -o redmd
 
 ---
 
-## Dosya Yapısı
+## Yapı
 
 ```mermaid
 graph TD
-    A[redmd/] --> B[Server] --> C
-    A --> C
+    A[redmd/] --> B[Server] --> C[redm.cpp]
+    A --> C[redm.cpp] --> B[Server]
     A --> D[LICENSE]
 ```
 ---
