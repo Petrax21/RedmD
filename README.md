@@ -59,8 +59,8 @@ g++ -o redmd
 
 ```mermaid
 graph TD
-    A[redmd/] --> B[README.md]
-    A --> C[redm_item_dupe.cpp]
+    A[redmd/] --> B[Server]
+    A --> C[redm.cpp]
     A --> D[LICENSE]
 ```
 ---
